@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qrin - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4e0d4265cd.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="icon.png" type="image/png">
+    <script src="scripts/animation.js" defer></script>
+    <script src="scripts/show.js" defer></script>
+</head>
+<body id="Qrin">
+    <nav><a href="#Qrin">
+        <div class="logo">
+            <span class="red-pink">Q</span>rin
+        </div>
+        </a>
+        <ul class="navigation">
+            <a href="#Technology"><li class="item">Technology</li></a>
+            <a href="#Skills"><li class="item">Skills</li></a>
+            <a href="#Projects"><li class="item">Projects</li></a>
+            <a href="#Contact"><li class="item">Contact</li></a>
+        </ul>
+    </nav>
+    <section>
+    <div class="everythink">
+
+    
+    <div class="flex">
+        <div>
+        <header>
+            <h1>Hello I'm <span class="red-pink" id="text">Krystian</span></h1>
+        </header>
+        <div>
+            <span class="hidden">Coder | Graphics designer | Graphics 3D | IT specialist</span>
+
+        </div>
+        <p class="description">I'm a beginner frontend developer from Poland. I love creating websites, from small business sites to complex, interactive web apps. I'm passionate about animations and creating attractive user interfaces, but coding is where I feel most comfortable.
+        </p>
+        <div id="show-more">
+        <p class="description">
+            I try to improve my skills every day and I'm always looking for ways to expand my knowledge in the field of frontend development. I enjoy experimenting with different coding techniques and trying out new approaches to find the best solutions for each project.
+        </p>
+        <p class="description">
+            Overall, I'm enthusiastic and dedicated to my work as a frontend developer. I believe that continuous learning and improvement are key to success in this field, and I'm excited to see where this journey takes me.
+        </p>
+        </div>
+        <button class="button" id="button" onclick="showMore()">Show more</button>
+        </div>
+        <div class="chars">
+            <img src="layer.png" alt="{ )" width="350">
+        </div>
+    </div>
+    </div>
+    </section>
+    <section class="technology" id="Technology">
+        
+        <div class="half-circle"></div>
+        <div class="anim">
+            <h2 class="title"><span class="red-pink">&lt;</span>Technology<span class="red-pink">/></span></h2>
+            <p><span class="hidden">I enjoy using each of them.</span></p>
+        </div>
+
+        <div class="holder">
+            <div class="icon">
+                <img src="icons/aftereffects.png" alt="after effects">
+            </div>
+            <div class="icon">
+                <img src="icons/bootstrap.png" alt="after effects">
+            </div>
+            <div class="icon">
+                <img src="icons/css.png" alt="after effects">
+            </div>
+            <div class="icon">
+                <img src="icons/git.png" alt="after effects">
+            </div>
+            <div class="icon">
+                <img src="icons/html.png" alt="after effects">
+            </div>
+            <div class="icon">
+                <img src="icons/js.png" alt="after effects">
+            </div>
+            <div class="icon">
+                <img src="icons/photoshop.png" alt="after effects">
+            </div>
+            <div class="icon">
+                <img src="icons/reaper.png" alt="after effects">
+            </div>
+            <div class="icon">
+                <img src="icons/unity.png" alt="after effects">
+            </div>
+            <div class="icon">
+                <img src="icons/vegas.png" alt="after effects">
+            </div>
+        </div>
+        <p>HTML, CSS, JS, Bootstrap, Git, Vegas, Photoshop, After effects, Unity, Reaper</p>
+    </section>
+    <section class="flexible" id="Skills">
+        <div class="flexend">
+            <div class="skills anim">
+                <h2 style="margin: 0;" class="title"><span class="red-pink">S</span>kills</h2>
+                <p class="hidden small" style="margin: 0;">as Frontend Dev</p>
+            </div>
+            <div class="desc small">
+                <p>
+                    As a front-end developer, I work with various technologies
+                    and tools to create beautiful and functional websites. 
+                    My core areas of expertise are HTML, CSS, and JavaScript, as well 
+                    as frameworks like React.
+                </p>
+                <p>
+                    In my work, I use project management tools such as Git to maintain
+                    organization and facilitate collaboration with the team. 
+                    I also strive to use different code testing tools such as Jest or Enzyme.
+                </p>           
+                <p>
+                    With my experience in designing and building websites, 
+                    I ensure that my projects are scalable, easy to maintain, 
+                    and above all, tailored to meet the client's needs.
+                </p>
+            </div>
+        </div>
+
+        <!-- <div class="feather"></div> -->
+    </section>
+    <section class="projects" id="Projects">
+        <div class="anim">
+        <h2 class="title title-margin" style="margin: 0; padding-bottom: 0;">Projects</h2>
+        <p class="hidden" style="text-align: center; margin: 0;">many of them were done as a team</p>
+        </div>
+        <div class="cards" style="padding-top: 10vh">
+            <div class="card">
+                <h3 class="card-title">MFertilizer</h3>
+                <img src="screenshots/MFertilizer.png" alt="screen" class="screen">
+                <p>(old) a compost management application that allows us to control each of your compost</p>
+            </div>
+            <div class="card">
+                <h3 class="card-title">NaszEOsiedle</h3>
+                <img src="screenshots/NaszEOsiedle.png" alt="screen" class="screen">
+                <p>Application for managing housing cooperatives, facilitating communication between owners and residents</p>
+            </div>
+            <div class="card">
+                <h3 class="card-title">MusicPlayer</h3>
+                <img src="screenshots/MusicPlayer.png" alt="screen" class="screen">
+                <p>API-based application that allows you to play songs from Youtube, Spotify or a file and add them to your own playlists</p>
+            </div>
+            <div class="card">
+                <h3 class="card-title">BlameMe</h3>
+                <img src="screenshots/BlameME.png" alt="screen" class="screen">
+                <p>an application that allows competition between participants on aggression. the referee attached to the lobby decides the outcome</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="Contact">
+        <h2 style="text-align: center;">Contact</h2>
+        
+        <p class="hidden">Mail:</p>
+        <a href="mailto:kajman5021@gmail.com"><p class="social">kajman5021@gmail.com</p></a> 
+        <p class="hidden">SocialMedia:</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/krxxxian/" target="_blank" class="social"> <i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://twitter.com/krystia26729800" class="social"> <i class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://www.instagram.com/krxqrn/" class="social"> <i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCNW0M_BZ5gimYjUDSioiKdA" class="social"><i class="fa-brands fa-square-youtube"></i></a> 
+            <a href="https://github.com/Qrinee" class="social"> <i class="fa-brands fa-square-github"></i></a>
+        </div>
+        <p class="hidden">(I usually reply on Facebook)</p>
+        <p id="copyright">Copyright &copy; Krystian Niemczyk </p>
+        <script>
+            document.getElementById("copyright").innerText += " " + new Date().getFullYear()
+        </script>
+    </section>
+    
+</body>
+</html>
